@@ -391,3 +391,10 @@ footer {
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
 }
+
+.house-principle {
+  margin-top: 2.5rem;
+  max-width: 680px;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-style: italic;
+}

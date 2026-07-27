@@ -23,3 +23,12 @@ Do not change the Namecheap DNS records until the temporary GitHub Pages URL is 
 ## Contact
 
 hello@thinkingaloudhouse.com
+
+
+## Custom domain
+
+This package includes a `CNAME` file for:
+
+`thinkingaloudhouse.com`
+
+In GitHub, enter the same domain under **Settings → Pages → Custom domain** after the required Namecheap DNS records have been added. Preserve all existing Google Workspace MX records.
