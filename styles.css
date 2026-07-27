@@ -398,3 +398,5 @@ footer {
   font-size: clamp(1.05rem, 2vw, 1.35rem);
   font-style: italic;
 }
+
+.house-principle{margin:1rem 0 2rem;font-size:1.2rem;font-style:italic;max-width:38rem;color:#fff;}
