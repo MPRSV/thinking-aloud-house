@@ -50,10 +50,6 @@
       </div>
       <div class="vestibule-body">
         <p class="lead">Leave preconceived notions at the door. Respect the house. Honor the inquiry. Bring curiosity, candor, and enough humility to consider that your first explanation may not be the only one.</p>
-        <div class="threshold-words">
-          <div><span>LEAVE AT THE DOOR</span><p>preconception · certainty · assumption · the need to be right</p></div>
-          <div><span>BRING INSIDE</span><p>curiosity · candor · humility · inquiry</p></div>
-        </div>
       </div>
     </div>
     <div class="rules"><p>Agreement is optional.</p><p>Introspection is requisite.</p></div>
@@ -141,16 +137,50 @@
   </section>
 
   <section id="human-intersection" class="intersection">
-    <div class="intersection-intro"><p class="eyebrow">The Yard / Proposed Installation</p><h2>The Human<br>Intersection</h2><p class="lead">Think independently. Answer anonymously. Then see where you intersect.</p></div>
-    <div class="nano-exhibit">
-      <p class="nano-label">A nano exhibit</p><h3>In one word, what makes a place feel like home?</h3>
-      <form id="nano-form"><label class="sr-only" for="nano-word">Your one-word response</label><input id="nano-word" maxlength="24" placeholder="YOUR WORD" autocomplete="off"><button type="submit">Commit response →</button></form>
-      <p class="nano-note">Your response stays yours. The field appears only after you commit.</p>
-      <div id="word-field" class="word-field" hidden><span>belonging</span><span>quiet</span><span>safety</span><span>freedom</span><span>family</span><span>privacy</span><span>peace</span><span>people</span><span>comfort</span><span id="your-word"></span><p>Where did you intersect? Where did you differ?</p></div>
+    <div class="intersection-intro">
+      <p class="eyebrow">The Yard / Proposed Installation</p>
+      <h2>The Human<br>Intersection</h2>
+      <p class="lead">Think independently. Answer anonymously. See where you intersect.</p>
+      <p class="intersection-blurb">The Human Intersection is a participatory installation that asks visitors to encounter lived experience before identity. Anonymous responses to shared human questions appear first; selected demographic context comes later, making the assumptions a visitor carried into the encounter part of the work. The goal is not to erase difference, but to make overlooked commonality visible.</p>
     </div>
-    <a class="text-link intersection-link" href="#">Explore the full installation <span>↗</span></a>
-  </section>
 
+    <div class="nano-exhibit">
+      <div class="nano-heading">
+        <p class="nano-label">A nano exhibit</p>
+        <p class="nano-kicker">Experience the sequence in miniature.</p>
+      </div>
+      <h3>In one word, what makes a place feel like home?</h3>
+      <form id="nano-form">
+        <label class="sr-only" for="nano-word">Your one-word response</label>
+        <input id="nano-word" maxlength="24" placeholder="YOUR WORD" autocomplete="off" required>
+        <button type="submit">Commit response →</button>
+      </form>
+      <p class="nano-note">Commit first. The response field stays hidden until your answer is in.</p>
+
+      <div id="response-reveal" class="response-reveal" hidden aria-live="polite">
+        <div class="response-meta">
+          <div>
+            <span class="response-label">Your response</span>
+            <strong id="committed-word"></strong>
+          </div>
+          <div>
+            <span class="response-label">Intersection</span>
+            <strong id="intersection-count"></strong>
+          </div>
+        </div>
+
+        <div class="response-field-wrap">
+          <p class="response-field-label">Prototype response field</p>
+          <div id="response-field" class="response-field" aria-label="Sample response field plus your submitted word"></div>
+        </div>
+
+        <p class="response-disclosure">This nano exhibit uses a sample response set to demonstrate the installation logic. Your submission is added locally in this browser; it is not transmitted or stored.</p>
+        <p class="response-question">Where did you intersect? Where did you differ?</p>
+      </div>
+    </div>
+
+    <a class="text-link intersection-link" href="human-intersection.html">Explore the full installation <span>↗</span></a>
+  </section>
   <section id="about" class="about">
     <div class="about-portrait"><img src="images/02-portal.jpeg" alt="A mirrored illuminated geometric sphere with repeating interconnected forms."><span class="scribble">A → G → K → S → D → A</span></div>
     <div class="about-copy"><p class="eyebrow">About the creator</p><h2>Najah Hull</h2><p class="about-lede">The shortest distance between A and B may be a straight line, but where’s the fun in that?!</p><p>An ordinary observation has rarely remained ordinary for me. I may begin at A, but before I ever reach B, I’ve encountered G, K, S, D—and sometimes found my way back to A with an entirely different understanding of where I started.</p><p>That interconnectivity is how much of my work begins. Something I notice becomes a question. One connection exposes another, then another, until what appeared to be an isolated observation reveals an entire architecture of thought.</p><a class="text-link" href="mailto:hello@thinkingaloudhouse.com">hello@thinkingaloudhouse.com <span>↗</span></a></div>
