@@ -751,3 +751,14 @@ a.house-nav-item:hover,a.house-nav-item:focus,.house-nav-item.is-current{
   .polaroid-note .hand-possibility{max-height:82px}
   .jack-photo-stream{grid-template-columns:1fr 1fr}
 }
+
+.hi-reflection-prompt{
+  max-width:1200px;
+  margin:5vw auto 0;
+  padding-top:2rem;
+  border-top:1px solid #111;
+  font-size:clamp(36px,4.5vw,72px);
+  line-height:1.08;
+  letter-spacing:-.035em;
+}
+.hi-house-nav{margin-top:4rem;margin-bottom:0}
